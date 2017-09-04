@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="botao_login" type="id">Login</item>
+    <item name="texto_nome" type="id">nome</item>
+</resources>

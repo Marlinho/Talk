@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marlisson.talk.activity.ContatosActivity">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="320dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=" Birl! Que não vai dá rapaiz, não vai dá essa porra. Eu quero esse 13 daqui a pouquinho aí. Ajuda o maluco que tá doente. Negativa Bambam negativa. Sai filho da puta!   É nóis caraio é trapezera buscando caraio! Ó o homem ali porra!, é 13 porra! AHHHHHHHHHHHHHHHHHHHHHH..., porra! Bora caralho, você quer ver essa porra velho.   Ajuda o maluco que tá doente. Ajuda o maluco que tá doente. Sai de casa comi pra caralho porra. Sai filho da puta! É 13 porra! AHHHHHHHHHHHHHHHHHHHHHH..., porra! Ele tá olhando pra gente. Vamo monstro! É esse que a gente quer, é ele que nóis vamo buscar.   Bora caralho, você quer ver essa porra velho. Aqui é bodybuilder porra! Bora caralho, você quer ver essa porra velho.   Aqui é bodybuilder porra! Eu quero esse 13 daqui a pouquinho aí. Vem porra! É 37 anos caralho! Sai de casa comi pra caralho porra. Sai filho da puta! Ó o homem ali porra!, é 13 porra! Vai subir árvore é o caralho porra!   Vem porra! Vamo monstro! É esse que a gente quer, é ele que nóis vamo buscar. Ajuda o maluco que tá doente. Vem porra! Vai subir árvore é o caralho porra!   É esse que a gente quer, é ele que nóis vamo buscar. Vai subir árvore é o caralho porra! Vo derrubar tudo essas árvore do parque ibirapuera. Não vai dá não. É esse que a gente quer, é ele que nóis vamo buscar.  Birl! Que não vai dá rapaiz, não vai dá essa porra. Eu quero esse 13 daqui a pouquinho aí. Ajuda o maluco que tá doente. Negativa Bambam negativa. Sai filho da puta!   É nóis caraio é trapezera buscando caraio! Ó o homem ali porra!, é 13 porra! AHHHHHHHHHHHHHHHHHHHHHH..., porra! Bora caralho, você quer ver essa porra velho.   Ajuda o maluco que tá doente. Ajuda o maluco que tá doente. Sai de casa comi pra caralho porra. Sai filho da puta! É 13 porra! AHHHHHHHHHHHHHHHHHHHHHH..., porra! Ele tá olhando pra gente. Vamo monstro! É esse que a gente quer, é ele que nóis vamo buscar.   Bora caralho, você quer ver essa porra velho. Aqui é bodybuilder porra! Bora caralho, você quer ver essa porra velho.   Aqui é bodybuilder porra! Eu quero esse 13 daqui a pouquinho aí. Vem porra! É 37 anos caralho! Sai de casa comi pra caralho porra. Sai filho da puta! Ó o homem ali porra!, é 13 porra! Vai subir árvore é o caralho porra!   Vem porra! Vamo monstro! É esse que a gente quer, é ele que nóis vamo buscar. Ajuda o maluco que tá doente. Vem porra! Vai subir árvore é o caralho porra!   É esse que a gente quer, é ele que nóis vamo buscar. Vai subir árvore é o caralho porra! Vo derrubar tudo essas árvore do parque ibirapuera. Não vai dá não. É esse que a gente quer, é ele que nóis vamo buscar." />-->
+    <!--</ScrollView>-->
+
+    <ListView
+        android:id="@+id/listaContatos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/darker_gray" />
+
+
+</RelativeLayout>

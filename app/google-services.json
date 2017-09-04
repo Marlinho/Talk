@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "786964507695",
+    "firebase_url": "https://talk-app1.firebaseio.com",
+    "project_id": "talk-app1",
+    "storage_bucket": "talk-app1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786964507695:android:86943dd10b0b581c",
+        "android_client_info": {
+          "package_name": "marlisson.talk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786964507695-qpj096pmhm7vv3nmk7ub8gedhl1a93v2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "marlisson.talk",
+            "certificate_hash": "b6ba5590abba041040ffd763a403f471b0d559c8"
+          }
+        },
+        {
+          "client_id": "786964507695-n0k9i5fs14kbvmbk2tvh61n8u6pa7233.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtUG0GUBuodKkAK0P0XRFRDlUQDiBpgOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786964507695-n0k9i5fs14kbvmbk2tvh61n8u6pa7233.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
