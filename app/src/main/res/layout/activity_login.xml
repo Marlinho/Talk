@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#351a59">-->
+
+    <!--<Button-->
+        <!--android:id="@+id/botao_login"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="@android:color/holo_purple"-->
+        <!--android:clickable="?attr/isLightTheme"-->
+        <!--android:ellipsize="start"-->
+        <!--android:text="Login" />-->
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--app:layout_scrollFlags="scroll|enterAlways"-->
+        <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light">-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignBottom="@+id/toolbar"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:text="TALK"-->
+        <!--android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/textoUsuario"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/toolbar"-->
+        <!--android:layout_marginStart="38dp"-->
+        <!--android:layout_marginTop="45dp"-->
+        <!--android:background="@android:color/background_light"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Usuário"-->
+        <!--android:textColor="@android:color/black" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignStart="@+id/textoUsuario"-->
+        <!--android:layout_below="@+id/textoUsuario"-->
+        <!--android:layout_marginTop="27dp"-->
+        <!--android:background="@android:color/background_light"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:selectAllOnFocus="false"-->
+        <!--android:text="Senha"-->
+        <!--android:textColor="@android:color/black" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/botaoContatos"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="98dp"-->
+        <!--android:background="#28690a"-->
+        <!--android:text="Button" />-->
+
+<!--</RelativeLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/textoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite seu e-mail"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha" />
+
+    <EditText
+        android:id="@+id/textoSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manter Conectado" />
+
+    <Button
+        android:id="@+id/botaoLogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:allowUndo="false"
+        android:text="Logar"
+        android:theme="@style/botaoPadrao" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ainda não entrou no mundo da diversão?" />
+
+    <Button
+        android:id="@+id/botaoTelaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cria sua conta agora!"
+        android:theme="@style/botaoPadrao" />
+
+
+</LinearLayout>

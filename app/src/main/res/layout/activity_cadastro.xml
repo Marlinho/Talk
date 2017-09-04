@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="marlisson.talk.activity.CadastroActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="113dp"
+        android:layout_above="@+id/CadastroNome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        app:srcCompat="@drawable/usuario"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/CadastroNome"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CadastroEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <EditText
+        android:id="@+id/CadastroEmail"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/CadastroNome"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Digite seu e-mail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/CadastroSenha"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/CadastroEmail"
+        android:layout_below="@+id/CadastroEmail"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/botaoCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CadastroSenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Cadastrar"
+        android:theme="@style/botaoPadrao" />
+
+</RelativeLayout>
